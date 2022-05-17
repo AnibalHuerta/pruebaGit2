@@ -1,0 +1,45 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*propiedades del div caja*/
+
+/*.caja{
+    border: 3px solid black;
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(0, 0, 0));
+    width: 300px;
+    height: 300px;
+    margin: 2rem;
+    transition: 5s;
+}
+
+.caja:hover{
+    transform: translate(20px, 20px);
+    background-image: linear-gradient(rgb(129, 36, 36),rgb(219, 216, 14));
+
+}*/
+
+.luna img{
+    width: 30%;
+}
+
+.girar {
+    animation-name: lunagira;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes lunagira{
+    from{
+        transform: scale(0.1);
+    }
+
+    to{
+        transform: scale(0.8);
+    }
+
+}
